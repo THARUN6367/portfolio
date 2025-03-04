@@ -1,0 +1,386 @@
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio</title>
+    <link rel="shortcut icon" href="./assets/images/user/JT.png">
+    <link rel="stylesheet" href="./assets/css/hero.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="./assets/css/w3.css">
+    <link rel="stylesheet" href="./assets/css/scrollBtn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/pricing.css">
+    <link rel="stylesheet" href="./assets/css/cloud_stars.css">
+    <link rel="stylesheet" href="./assets/css/pokermon.css">
+    <link rel="stylesheet" href="./assets/css/shootingstar.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+</head>
+
+<body>
+    <canvas class="background" style="position: fixed !important; z-index: 1; pointer-events: none;"></canvas>
+    <!-- Move to up bottom -->
+    <div class="scroll-button" style="display: none;">
+        <a onclick="navTo('home')"><i class="fa fa-arrow-up contact-title"></i></a>
+    </div>
+    <!-- navigation menu -->
+    <nav style="width: 100%; position: fixed; z-index: 300;">
+        <div class="navbar">            
+            <div class="logo"><a href="#about">Tharun B</a></div>
+            <ul class="menu" style='margin-bottom: 0px;'>
+                <li class= "li"><a onclick="navTo('home')">Home</a></li>
+                <li class= "li"><a onclick="navTo('about')">About</a></li>
+                <li class= "li"><a onclick="navTo('skills')">Skills</a></li>
+                <li class= "li"><a onclick="navTo('services')">Services</a></li>
+                <li class= "li"><a onclick="navTo('myworks')">Portfolio</a></li>
+                <li class= "li"><a onclick="navTo('contact')">Contact</a></li>
+                <div class="cancel-btn">
+                    <i class="fa fa-times"></i>
+                </div>
+            </ul>
+        </div>
+        <div class="menu-btn">
+            <i class="fa fa-bars" style="margin-top: 8px;"></i>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="home" id="home" style="position: relative; z-index: 2; margin-top: 0px;">
+        <div class="home-content">
+            <div>
+                <div class="text-two">       
+                    <div class="text-three">Hi, Nice to meet you</div>  <br/>
+                    <h4 class="span loader">
+                        <span class='m'>Web Developer & Business Analyst</span>
+                        <br class="br"/>
+                    </h4><br/> 
+                </div>
+                <div class="text-four">Specialized in Full-stack Development & Machine Learning</div>
+            </div>
+        </div>
+    </section>
+    <hr/>
+    <br/><br/>
+    <div class="w3-container w3-padding-large" style="position: relative; z-index: 2;">
+    <div id="about" style="margin-top: -100px; height: 170px;"></div>
+    <div class="w3-col l5" style="display: flex; justify-content: center; opacity: 0.9;">
+        <img data-src="./assets/images/user/Me.jpg" class="avatar lazy" 
+            style="min-height: 300px; min-width: 300px; margin: 10px; 
+                   border-radius: 50%; object-fit: cover;"/>
+    </div>
+    <div class="w3-col l7 description">
+
+            <h3>Passionate Full Stack Developer with experience in building dynamic web applications and interactive user interfaces. Skilled in front-end and back-end development, with expertise in JavaScript, Python, and SQL. Strong foundation in software development principles and best practices. Enthusiastic about creating innovative, efficient, and user-friendly solutions to complex problems.</h3>
+        </div>
+    </div><br/><br/>
+<!-- My Skill Section -->
+<!-- <h1 id="myskills" class="subtitle"> My Skills & Services </h1> -->
+<section class="skills" style="padding-top: 0px; position: relative; z-index: 2;">
+    <div id="skills" style="margin-top: -100px; height: 100px;"></div>
+    <section class="skills-bounce">
+        <div class="content">
+            <h2>Skills</h2>
+            <h2>Skills</h2>
+        </div>
+    </section>
+    <div class="content pre-loader">
+        <div class="boxes shape">
+            <div class="box circle">
+                <div class="topic">Web Development</div>
+                <div class="green">
+                    <div class="progress">
+                    <div class="inner">
+                        <div class="percent"><span>&nbsp;&nbsp;95</span>%</div>
+                        <div class="water"></div>
+                        <div class="glare"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box circle">
+                <div class="topic">UI/UX Design</div>
+                <div class="green">
+                    <div class="progress">
+                        <div class="inner">
+                            <div class="percent"><span>&nbsp;&nbsp;90</span>%</div>
+                            <div class="water"></div>
+                            <div class="glare"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box circle">
+                <div class="topic">Database Management</div>
+                <div class="green">
+                    <div class="progress">
+                        <div class="inner">
+                            <div class="percent"><span>&nbsp;&nbsp;85</span>%</div>
+                            <div class="water"></div>
+                            <div class="glare"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxes shape second">
+            <div class="box circle">
+                <div class="topic">Front-end Development</div>
+                <div class="orange">
+                    <div class="progress">
+                    <div class="inner">
+                        <div class="percent"><span>&nbsp;&nbsp;90</span>%</div>
+                        <div class="water"></div>
+                        <div class="glare"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box circle">
+                <div class="topic">Back-end Development</div>
+                <div class="green">
+                    <div class="progress">
+                        <div class="inner">
+                            <div class="percent"><span>&nbsp;&nbsp;85</span>%</div>
+                            <div class="water"></div>
+                            <div class="glare"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box circle">
+                <div class="topic">Machine Learning</div>
+                <div class="green">
+                    <div class="progress">
+                        <div class="inner">
+                            <div class="percent"><span>&nbsp;&nbsp;80</span>%</div>
+                            <div class="water"></div>
+                            <div class="glare"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- My Services Section -->
+<!-- My Services Section -->
+<div class="portfolio-container" style="position: relative; z-index: 2;">
+    <div id="services" style="margin-top: -100px; height: 100px;"></div>
+    <h2 class="services" data-text="SERVICES">SERVICES</h2>
+    <div class="portfolio">  
+
+        <div class="portfolio-item">    
+            <div class="item-desc"> 
+                <h2 class="animate one">
+                    <span>W</span><span>e</span><span>b</span><span>&nbsp;</span><span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>m</span><span>e</span><span>n</span><span>t</span>
+                </h2>
+                <p>
+                    - HTML, CSS, JavaScript, Tailwind CSS<br/>
+                    - React.js, Next.js, Three.js<br/>
+                    - PostgreSQL, MySQL, MongoDB<br/>
+                    - Node.js, Express.js, FastAPI<br/>
+                    - Customer Onboarding System<br/>
+                </p>
+                <a onClick="showWork('website')" title="Website Development">View Work</a>
+            </div>
+            <div class="item-card">
+                <div>
+                    <picture>
+                        <img class="lazy" data-src="./assets/images/web-development.jpg" alt="Web Development" 
+                             style="max-width: 400px; max-height: 200px; width: 80vw; height: 40vw;">
+                    </picture>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <div class="item-desc">      
+                <h2 class="animate two">
+                    <span>B</span><span>u</span><span>s</span><span>i</span><span>n</span><span>e</span><span>s</span><span>s</span><span>&nbsp;</span>
+                    <span>A</span><span>n</span><span>a</span><span>l</span><span>y</span><span>s</span><span>t</span>
+                </h2>
+                <p>
+                    - Data Interpretation & Forecasting<br/>
+                    - Operational Efficiency Optimization<br/>
+                    - Business Intelligence & Analytics<br/>
+                    - Process Automation & Reporting<br/>
+                </p>
+                <a onClick="showWork('business-analyst')" title="Business Analyst">View Work</a>
+            </div>
+            <div class="item-card">
+                <div>
+                    <picture>
+                        <img class="lazy" data-src="./assets/images/business-analyst.jpg" alt="Business Analyst" 
+                             style="max-width: 400px; max-height: 200px; width: 80vw; height: 40vw;">
+                    </picture>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>  
+
+    </div>
+</div>
+<br/>
+
+    <!-- My Previous Works -->
+    <div class="container" style=" position: relative; z-index: 2; margin-top: 100px;">
+        <div id="myworks" style="margin-top: -100px; height: 100px;"></div>
+        <div class="waviy">
+            <span style="--i:1">P</span>
+            <span style="--i:2">r</span>
+            <span style="--i:3">e</span>
+            <span style="--i:4">v</span>
+            <span style="--i:5">i</span>
+            <span style="--i:6">o</span>
+            <span style="--i:7">u</span>
+            <span style="--i:8">s</span>
+            <span style="--i:9">&nbsp;</span>
+            <span style="--i:10">W</span>    
+            <span style="--i:11">o</span>       
+            <span style="--i:12">r</span>     
+            <span style="--i:13">k</span>     
+            <span style="--i:14">s</span>
+        </div>
+    </div>
+    <div class="filters filter-button-group" style="position: relative; z-index: 2;">
+        <ul>
+            <li class="active"><a href="javascript:void(0);" data-filter="*" id="all">All</a></li>
+            <li><a href="javascript:void(0);" data-filter="ml" id="ml">Machine Learning</a></li>
+            <li><a href="javascript:void(0);" data-filter="website" id="website">Web Development</a></li>
+        </ul>
+    </div>
+    
+    <div id="container" class="isotope" style="position: relative; z-index: 2; opacity: 0.9;">
+        <!-- Machine Learning Projects -->
+        <div class="grid-item" data-filter="ml">
+            <a class="popupimg" href="https://github.com/THARUN6367/Object-Count-Detector" target="_blank">
+                <img class="lazy" data-src="./assets/images/portfolio/ocd.webp">
+            </a>
+            <div class="_overlay">
+                <a href="https://github.com/THARUN6367/Object-Count-Detector" target="_blank" class="imageLink">Object Count Detector</a>
+            </div>
+        </div>
+    
+        <div class="grid-item" data-filter="ml">
+            <a class="popupimg" href="https://github.com/THARUN6367/Auto-Sense-of-vehichles" target="_blank">
+                <img class="lazy" data-src="./assets/images/portfolio/asv.webp">
+            </a>
+            <div class="_overlay">
+                <a href="https://github.com/THARUN6367/Auto-Sense-of-vehichles" target="_blank" class="imageLink">Auto Sense of Vehicle</a>
+            </div>
+        </div>
+    
+        <div class="grid-item" data-filter="ml">
+            <a class="popupimg" href="https://github.com/THARUN6367/ImageStitching" target="_blank">
+                <img class="lazy" data-src="./assets/images/portfolio/image-stitching.webp">
+            </a>
+            <div class="_overlay">
+                <a href="https://github.com/THARUN6367/ImageStitching" target="_blank" class="imageLink">Image Stitching</a>
+            </div>
+        </div>
+    
+        <!-- Web Development Projects -->
+        <div class="grid-item" data-filter="website">
+            <a class="popupimg" href="https://github.com/THARUN6367/Customer-Onboarding" target="_blank">
+                <img class="lazy" data-src="./assets/images/portfolio/customer-onboarding.webp">
+            </a>
+            <div class="_overlay">
+                <a href="https://github.com/THARUN6367/Customer-Onboarding" target="_blank" class="imageLink">Customer Onboarding System</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="isotope-pager" style="padding-top: 15px; text-align:center; position: relative; z-index: 3;"></div>
+ 
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-large contact" style=" position: relative; z-index: 2;">
+        <div id="contact" style="margin-top: -100px; height: 100px;"></div>
+        <div id="container" style="display: flex;">
+            <span id="text1"></span>
+            <span id="text2"></span>
+        </div>
+        
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                                            0 1 0 0 0
+                                            0 0 1 0 0
+                                            0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+        <div class="w3-row-padding w3-center w3-padding-24 w3-border w3-border-dark-grey" style="margin:0px; padding: 0px!important; margin-top: -50px;">
+            <div class="w3-col l4 ">
+                <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                <p><a href="mailTo: tharun6367@gmail.com?Subject=I'd like to have a interview with you."  style="text-decoration: underline; color: white;">tharun6367@gmail.com</a></p>
+            </div>
+            <div class="w3-col l4">
+                <p><i class="fa fa-clock-o w3-xxlarge w3-text-light-grey"></i></p>
+                <p>Full Time Availability</p>
+            </div>
+            <div class="w3-col l4 ">
+                <p><i class="fa fa-telegram w3-xxlarge w3-text-light-grey"></i></p>
+                <p><a href="https://t.me/firy6367" target="_blank" title="Telegram" style="text-decoration: underline; color: white;"> Telegram : firy6367
+                 </a></p>
+            </div>
+            <div class="w3-col l4">
+                <p><i class="fa fa-whatsapp w3-xxlarge w3-text-light-grey"></i></p>
+                <p><a href="https://wa.me/7418306367" target="_blank" title="Whatsapp" style="text-decoration: underline; color: white;"> Whatsapp : 7418306367 </a></p>
+            </div>
+            <div class="w3-col l4 ">
+                <p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
+                <p><a href="https://github.com/tharun6367" style="text-decoration: underline; color: white;">Github : tharun6367</a>  </p>
+            </div>
+            <div class="w3-col l4">
+                <p>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-download" 
+                        class="svg-inline--fa fa-file-download" role="img" xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 512 512" style="width: 45px">
+                        <path fill="currentColor" d="M464 128h-144V48c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16v80H48c-26.5 0-48 21.5-48 48v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V176c0-26.5-21.5-48-48-48zM256 464l-112-112h72V208h80v144h72L256 464z"></path>
+                    </svg>
+                </p>
+                <p><a href="./assets/resume/Tharun_Resume.pdf" download style="text-decoration: underline; color: white;">Download Resume</a></p>
+            </div>            
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer" style=" position: relative; z-index: 2;">
+        <p class="contact-title"> &copy; Last Updated On March 03 2025 </p>
+    </div>
+
+    <!-- Button -->
+    <button class="scroll-btn" style="z-index: 10; outline: 0px !important;">
+        <span class="scroll-btn__sign">Scroll Down</span>
+        <span class="scroll-btn__arrow"></span>
+    </button>
+    <!-- /Button -->
+    <!-- Clouds and Starts -->
+    <div class="clouds" style="z-index: 1;"></div>
+
+    <!-- partial:index.partial.html -->
+<canvas id="canvas" style="position: fixed; top:0;"></canvas>
+<!-- partial -->
+    <!-- /Clouds and Starts -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/101/three.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="./assets/js/hero.js"></script>
+    <script src="./assets/js/portfolio.js"></script>
+    <script src="./assets/js/scrollBtn.js"></script>
+    <script src="./assets/js/pricing.js"></script>
+    <script src="./assets/js/pokemon.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.5/dat.gui.min.js'></script><script type="module" src="./assets/js/shootingstar.js"></script>
+</body>
+</html>
