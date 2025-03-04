@@ -58,7 +58,8 @@ nav{
   transition: all 0.3s ease;
 }
 nav.sticky{
-  background: #232323cc;
+  background: black;
+  opacity: 90%;
   padding:0px 0px !important;
   position: fixed !important;
 }
