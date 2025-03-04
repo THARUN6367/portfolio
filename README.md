@@ -21,4 +21,4 @@ A personal portfolio website showcasing my skills, projects, and contact informa
 
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/tharun6367/portfolio-website.git
+   https://github.com/THARUN6367/portfolio.git
